@@ -9,3 +9,5 @@ CREATE TABLE MATCH(
                    CONSTRAINT playr_name_ck CHECK(Player1<>Player2)
                    );
                    
+#Insertion
+INSERT into MATCH VALUES(2,1,2,1,"07-Feb-2020",1,20);
